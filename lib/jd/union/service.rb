@@ -6,7 +6,7 @@ module JD
   module Union
     class Options < ::Hashie::Mash;
       def self.default
-        self.new v: '2.0', sign_method: 'md5', format: 'json'
+        self.new v: '1.0', sign_method: 'md5', format: 'json'
       end
     end
 
